@@ -25,6 +25,24 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label>Profile Image:</label>
+                                        <input type="file" id="profile_image" name="profile_image" class="form-control" accept="image/*">
+                                        <img src="" id="imgInp" height="100px" width="100px">
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label>Description:</label>
+                                        <textarea id="description" name="description" class="form-control"></textarea>
+                                        
+                                    </div>                        
+                                </div>
+                            </div>
                             <div class="row">
                                 <div class="col-6">
                                     <div class="form-group">
@@ -48,23 +66,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="form-group">
-                                        <label>Profile Image:</label>
-                                        <input type="file" id="profile_image" name="profile_image" class="form-control" accept="image/*">
-                                        <img src="" id="imgInp" height="100px" width="100px">
-                                       
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="form-group">
-                                        <label>Description:</label>
-                                        <textarea id="description" name="description" class="form-control"></textarea>
-                                        
-                                    </div>                        
-                                </div>
-                            </div>
+                            
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
